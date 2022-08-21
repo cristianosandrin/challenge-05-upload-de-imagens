@@ -1,11 +1,4 @@
-import {
-  Box,
-  Heading,
-  Text,
-  Image,
-  Skeleton,
-  SkeletonText,
-} from '@chakra-ui/react';
+import { Box, Heading, Image, Skeleton, SkeletonText, Text } from '@chakra-ui/react';
 import { useState } from 'react';
 
 interface Card {
@@ -20,7 +13,7 @@ interface CardProps {
   viewImage: (url: string) => void;
 }
 
-export function Card({ data, viewImage }: CardProps): JSX.Element {
+export function CardUnit({ data, viewImage }: CardProps): JSX.Element {
   const [isLoading, setIsLoading] = useState(true);
 
   return (
