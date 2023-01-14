@@ -5,6 +5,7 @@ import { CardUnit } from './CardUnit';
 import { ModalViewImage } from './Modal/ViewImage';
 
 interface Card {
+   
   title: string;
   description: string;
   url: string;
